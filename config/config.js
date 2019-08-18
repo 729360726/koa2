@@ -2,8 +2,8 @@ module.exports = {
   environment: 'dev',
   database: {
     dbName: '7yue',
-    host: 'localhost',
-    port: 3306,
+    host: 'cdb-nrzqzsoa.cd.tencentcdb.com',
+    port: 10030,
     user: 'root',
     password: 'aassdd123'
   },
@@ -20,5 +20,5 @@ module.exports = {
     detailUrl: 'http://t.yushu.im/v2/book/id/%s',
     keywordUrl: 'http://t.yushu.im/v2/book/search?q=%s&count=%s&start=%s&summary=%s'
   },
-  host: 'http://localhost:3000/'
+  host: 'http://localhost:8902/'
 }

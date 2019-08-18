@@ -6,6 +6,7 @@ const sequelize = new Sequelize(db.dbName, db.user, db.password, {
   host: db.host,
   port: db.port,
   timezone: '+08:00',
+  logging: false,
   define: {
     createdAt: 'created_at',
     updatedAt: 'updated_at',

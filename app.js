@@ -11,4 +11,4 @@ app.use(catchError) //全局异常处理
 app.use(parser())
 app.use(static(path.join(__dirname, './static')))
 InitManager.initCore(app)
-app.listen(3000)
+app.listen(8902)
